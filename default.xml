@@ -2,6 +2,7 @@
 <manifest>
   <remote name="opensbi" fetch="https://github.com/riscv"/>
   <remote name="seL4" fetch="https://github.com/seL4"/>
+  <remote name="unsoundsystem" fetch="https://github.com/unsoundsystem"/>
   
   <default remote="seL4" revision="master"/>
   
@@ -12,4 +13,5 @@
   <project name="seL4_tools" path="tools" revision="2c213a9e784ae56b625572516128c15711da80c1" upstream="master" dest-branch="master"/>
   <project name="sel4runtime" path="libs/sel4runtime" revision="d935dd05da0cf959e9fd0140af913dc6fdaa0221" upstream="master" dest-branch="master"/>
   <project name="util_libs" path="libs/util_libs" revision="e8e30909c934436af3b06806891b30db05831776" upstream="master" dest-branch="master"/>
+  <project name="sel4-riscv-mcs-sample" path="sel4simple" revision="b605e2375e02157dcf71675faa8939f767ca53f1" upstream="master" dest-branch="master"/>
 </manifest>
