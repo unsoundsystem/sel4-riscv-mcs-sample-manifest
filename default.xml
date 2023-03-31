@@ -9,7 +9,7 @@
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="a98258d0b537a295f517bbc8d813007336731fa9" upstream="refs/tags/v0.8" dest-branch="refs/tags/v0.8"/>
   <project name="seL4" path="seL4" revision="ec170f4c21cdd6c9e163c0da681c912a52b97b8a" upstream="master" dest-branch="master"/>
   <project name="seL4_libs" path="libs/seL4_libs" revision="2ca525429e7b4f5abbc1fc694d3aeaff5eb6e7db" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools" path="tools/seL4" revision="2c213a9e784ae56b625572516128c15711da80c1" upstream="master" dest-branch="master">
+  <project name="seL4_tools" path="tools" revision="2c213a9e784ae56b625572516128c15711da80c1" upstream="master" dest-branch="master"/>
   <project name="sel4runtime" path="libs/sel4runtime" revision="d935dd05da0cf959e9fd0140af913dc6fdaa0221" upstream="master" dest-branch="master"/>
   <project name="util_libs" path="libs/util_libs" revision="e8e30909c934436af3b06806891b30db05831776" upstream="master" dest-branch="master"/>
 </manifest>
