@@ -13,5 +13,5 @@
   <project name="seL4_tools" path="tools" revision="2c213a9e784ae56b625572516128c15711da80c1" upstream="master" dest-branch="master"/>
   <project name="sel4runtime" path="libs/sel4runtime" revision="d935dd05da0cf959e9fd0140af913dc6fdaa0221" upstream="master" dest-branch="master"/>
   <project name="util_libs" path="libs/util_libs" revision="e8e30909c934436af3b06806891b30db05831776" upstream="master" dest-branch="master"/>
-  <project name="sel4-riscv-mcs-sample" path="sel4simple" revision="master" upstream="master" dest-branch="master" remote="unsoundsystem"/>
+  <project name="sel4-riscv-mcs-sample" path="sel4-riscv-mcs-sample" remote="unsoundsystem" revision="master" upstream="master" dest-branch="master"/>
 </manifest>
